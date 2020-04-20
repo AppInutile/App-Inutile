@@ -6,9 +6,23 @@
  * Made By MaterializeCSS.com
  */
 
-.icon-block {
-  padding: 0 15px;
+
+h1{
+  	font-size: 3rem;
+  	color:black;
+  	font-family: 'Baloo Bhai 2', cursive;
 }
-.icon-block .material-icons {
-	font-size: inherit;
+
+h2{
+	font-size: 1.6rem;
+  	color:black;
+  	line-height: 2rem;
+  	font-family: 'Baloo Bhai 2', cursive;
+}
+
+h3{
+ 	 font-size: 1.5rem;
+ 	 color:black;
+  	line-height: 2rem;
+ 	 font-family: 'Baloo Bhaina 2', cursive;
 }
