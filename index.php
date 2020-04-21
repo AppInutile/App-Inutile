@@ -35,11 +35,11 @@
       	<div class="Button" id="Button">
 			<img src="Immagine.png" position="absolute";top="200px";right="100px">
 	</div>
-		
+
 	</div>
 		<a href=''><img alt='Disponibile su Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/it_badge_web_generic.png' width="265px" height="80px";top="6000px";right="150px" /></a>
     </div>
-    
+
   <br><br><br>
 
   <footer class="page-footer grey">
