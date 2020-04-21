@@ -13,32 +13,45 @@
 <body bgcolor="#f8f8f">
 	 <nav class="black" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">crApps</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="Contattami.html">Contattami</a></li>
-      </ul>
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="https://www.google.com/">Contattami</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <br><br>
-   <div class="container">
-        <div class="row">
-      	   <div class="col s12 m7 l7">
-      		     <h1 >&nbsp;&nbsp;&nbsp;L'App Inutile</h1><br><h2 align="justify">Ciao, questa è l'applicazione inutile! </h2><h3>Probabilmente non verrai mai colpito dallo scarso entusiasmo con cui vengo presentata sullo store, magari sarà solo la curiosità a spingerti a scaricarmi. Proprio come dice il nome non ho uno scopo ben preciso, ti farò solo perdere tempo. Quindi... fai parte dei curiosi? <br><br></h3><h2>Button</h2><h3>Scaricandomi ti troverai a che fare con Button, un personaggio creato dal mio programmatore, che, con una personalità tutta sua, non gradirà la tua presenza. Quello che dovrai fare sarà solo andare avanti con le pagine e interagirci.<br>Nella storia non vi è un diretto riferimento a Button come personaggio "con un nome", ma nei prossimi aggiornamenti potrebbero esserci delle novità!</h3><br><h2>Requisiti</h2><h3>•Un dito (anche del piede va bene)<br>•Tempo da perdere</h3>
-  	          </div>
-      	       <div class="col s12 m1 l1"></div>
-      	       <div class="Immagine">
-			               <img src="Immagine.png" style="margin-top:100px;" >
-	             </div>
-               <div>
-                    <a href=''><img alt='Disponibile su Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/it_badge_web_generic.png' style="width:16.5625rem; height:5rem; margin-left:9rem;margin-top:8rem;" /></a>
-                  </div>
-	     </div>
 
+  <div class="container">
+    <h2 style="margin-top:5rem;">Inviami una segnalazione bug o scrivimi per consigli, se ti va puoi anche insultarmi. Grazie!</h2>
+    </div>
   </div>
 
+  <div class="row">
+      <form class="col s12 m12 l12" action="ContattamiForm.php" method="post">
+        <div class="container">
+        <div class="input-field col s6 m6 l6" style=" margin-top:4rem;">
+            <input type="text" name="nome" placeholder="Il tuo nome">
+        </div>
+        </div>
+        <div class="container">
+          <div class="input-field col s6 m6 l6" style="margin-top:4rem;">
+            <input type="text" name="mail" placeholder="La tua e-mail">
+          </div>
+        </div>
+        <div class="container">
+          <div class="input-field col s12 m6 l12" style="margin-top:2rem;">
+            <input type="text" name="oggetto" placeholder="Oggetto">
+          </div>
+        </div>
+        <div class="container">
+          <div class="col s12 m12 l12" style="margin-top:2rem;">
+            <textarea name="messaggio" placeholder="Inserisci il tuo messaggio"></textarea>
+          </div>
+        </div>
+        <div class="container center" style="margin-top:22rem;" >
+          <button class="btn-large waves-effect waves-light red" name="submit" style="padding-left:10rem; padding-right:10rem">INVIA</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2 style="margin-top:6rem;">Altrimenti puoi contattarmi su instagram seguendo la pagina @blabla</h2>
+    </div>
 
 
 
